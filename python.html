@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python Projects | Surbhi Priya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="section-box">
+    
+
+    <a href="index.html" class="back-btn">
+    ← Back to Portfolio
+</a>
+
+    <br><br>
+
+    <h1>Python Projects</h1>
+
+    <p>
+      Collection of Python and Streamlit projects focused on
+      ecommerce experimentation, analytics,
+      and interactive business tools.
+    </p>
+
+  </section>
+
+
+  <section class="projects-section">
+
+    <div class="projects-grid">
+
+
+      <!-- PROJECT 1 -->
+      <div class="project-card">
+
+        <img src="marketing_campaign_analyzer_python.png"
+        onclick="openModal(this.src)">
+
+        <div class="project-content">
+
+          <h3>Marketing Campaign Analyzer</h3>
+
+          <span>Python + Streamlit</span>
+
+          <p>
+            Built an interactive marketing analytics tool
+            to calculate campaign performance metrics
+            including ROI, revenue efficiency,
+            clicks, and order analysis.
+          </p>
+
+          <p>
+            <strong>Features:</strong>
+            Interactive calculations,
+            KPI analysis,
+            revenue tracking,
+            and Streamlit deployment.
+          </p>
+
+          <a href="https://marketing-campaign-analyzer-gfvjnbfufbuhzu725mkken.streamlit.app/"
+          target="_blank"
+          class="btn-dark">
+            View Live Project
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- PROJECT 2 -->
+      <div class="project-card">
+
+        <img src="2ndpythonproject.png"
+        onclick="openModal(this.src)">
+
+        <div class="project-content">
+
+          <h3>Mokti Mood-Based Recommendation Project</h3>
+
+          <span>Python + Streamlit</span>
+
+          <p>
+            A personal experimental project built using Python
+            and Streamlit to explore mood-based product
+            recommendations and interactive ecommerce experiences.
+          </p>
+
+          <p>
+            Mokti is not a business platform —
+            it is a personal creative space where I experiment
+            with UI ideas, recommendation logic,
+            storytelling, and interactive product discovery.
+          </p>
+
+          <p>
+            <strong>Features:</strong>
+            Mood-based recommendation flow,
+            interactive user inputs,
+            and ecommerce-inspired UI experimentation.
+          </p>
+
+          <a href="https://mokti-quiz-gwessfnmqc8ir62rzfw3xc.streamlit.app/"
+          target="_blank"
+          class="btn-dark">
+            View Live Project
+          </a>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- IMAGE MODAL -->
+  <div id="imageModal" class="modal">
+
+    <span class="close" onclick="closeModal()">&times;</span>
+
+    <img class="modal-content" id="modalImage">
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

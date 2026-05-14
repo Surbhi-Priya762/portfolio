@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power BI Projects | Surbhi Priya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="section-box">
+
+    <a href="index.html" class="back-btn">
+    ← Back to Portfolio
+</a>
+
+    <br><br>
+
+    <h1>Power BI Dashboards</h1>
+
+    <p>
+      Interactive ecommerce analytics dashboards focused on KPI tracking,
+      operational reporting, inventory analysis, and business insights.
+    </p>
+
+  </section>
+
+
+  <section class="projects-section">
+
+    <div class="projects-grid">
+
+
+      <!-- STOREILY DASHBOARD -->
+      <div class="project-card">
+
+        <img src="StoreilyDashboard.png" onclick="openModal(this.src)">
+
+        <div class="project-content">
+
+          <h3>Storeily Sales Dashboard</h3>
+
+          <span>Power BI</span>
+
+          <p>
+            Built an ecommerce sales dashboard using Power BI
+            to monitor revenue, orders, quantity sold,
+            payment methods, top-selling products,
+            and sales trends.
+          </p>
+
+          <p>
+            <strong>Business Insights:</strong>
+            Identified top-performing products,
+            tracked revenue trends,
+            compared payment methods,
+            and analyzed city-wise sales contribution.
+          </p>
+
+          <p>
+            <strong>Tools Used:</strong>
+            Power BI, Power Query, DAX, Excel
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- INVENTORY DASHBOARD -->
+      <div class="project-card">
+
+        <img src="Inventory Dashboard.png" onclick="openModal(this.src)">
+
+        <div class="project-content">
+
+          <h3>Inventory & Dispatch Tracker Dashboard</h3>
+
+          <span>Power BI</span>
+
+          <p>
+            Created an inventory and dispatch monitoring dashboard
+            to track order status, warehouse performance,
+            low stock alerts, and revenue trends.
+          </p>
+
+          <p>
+            <strong>Business Insights:</strong>
+            Monitored pending and returned orders,
+            identified low-stock products,
+            and compared warehouse-wise operational performance.
+          </p>
+
+          <p>
+            <strong>Tools Used:</strong>
+            Power BI, DAX, Data Modeling
+          </p>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- IMAGE MODAL -->
+  <div id="imageModal" class="modal">
+
+    <span class="close" onclick="closeModal()">&times;</span>
+
+    <img class="modal-content" id="modalImage">
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

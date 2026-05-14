@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SQL Projects | Surbhi Priya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="section-box">
+
+    <a href="index.html" class="back-btn">
+    ← Back to Portfolio
+</a>
+
+    <br><br>
+
+    <h1>SQL Analytics Projects</h1>
+
+    <p>
+      Ecommerce-focused SQL analysis projects built using MySQL Workbench
+      to analyze customer returns, refund delays, product performance,
+      and operational insights.
+    </p>
+
+  </section>
+
+
+  <section class="projects-section">
+
+    <div class="projects-grid">
+
+
+      <!-- PROJECT 1 -->
+      <div class="project-card">
+
+        <img src="Total_returns.png" onclick="openModal(this.src)">
+
+        <div class="project-content">
+
+          <h3>Total Returns Analysis</h3>
+
+          <span>SQL</span>
+
+          <p>
+            Used SQL aggregate functions to calculate total ecommerce returns.
+          </p>
+
+          <p>
+            <strong>Business Insight:</strong>
+            Helps track overall return volume and operational impact.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- PROJECT 2 -->
+      <div class="project-card">
+
+        <img src="most returned product.png" onclick="openModal(this.src)">
+
+        <div class="project-content">
+
+          <h3>Most Returned Products</h3>
+
+          <span>SQL</span>
+
+          <p>
+            Used GROUP BY and COUNT functions to identify products
+            with highest return frequency.
+          </p>
+
+          <p>
+            <strong>Business Insight:</strong>
+            Crop Tops and Cargo Pants showed higher return rates,
+            indicating possible sizing or quality concerns.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- PROJECT 3 -->
+      <div class="project-card">
+
+        <img src="Return reason analysis.png" onclick="openModal(this.src)">
+
+        <div class="project-content">
+
+          <h3>Return Reason Analysis</h3>
+
+          <span>SQL</span>
+
+          <p>
+            Analyzed customer return reasons using SQL grouping
+            and sorting queries.
+          </p>
+
+          <p>
+            <strong>Business Insight:</strong>
+            Late Delivery and Changed Mind were major return reasons,
+            helping identify logistics and customer experience gaps.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- PROJECT 4 -->
+      <div class="project-card">
+
+        <img src="Payment method VS Return.png" onclick="openModal(this.src)">
+
+        <div class="project-content">
+
+          <h3>Payment Method vs Returns</h3>
+
+          <span>SQL</span>
+
+          <p>
+            Compared return volume across multiple payment methods.
+          </p>
+
+          <p>
+            <strong>Business Insight:</strong>
+            Credit Card and Debit Card orders showed slightly higher
+            return counts compared to UPI payments.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- PROJECT 5 -->
+      <div class="project-card">
+
+        <img src="Average_Refund_Delay.png" onclick="openModal(this.src)">
+
+        <div class="project-content">
+
+          <h3>Average Refund Delay</h3>
+
+          <span>SQL</span>
+
+          <p>
+            Calculated average refund processing time using AVG().
+          </p>
+
+          <p>
+            <strong>Business Insight:</strong>
+            Average refund delay was around 5.5 days,
+            helping evaluate customer refund experience.
+          </p>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- IMAGE MODAL -->
+  <div id="imageModal" class="modal">
+
+    <span class="close" onclick="closeModal()">&times;</span>
+
+    <img class="modal-content" id="modalImage">
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
