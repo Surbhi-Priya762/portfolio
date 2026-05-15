@@ -112,6 +112,40 @@
     <img class="modal-content" id="modalImage">
 
   </div>
+  <script>
+function openModal(src){
+
+    const popup = document.createElement("div");
+
+    popup.style.position = "fixed";
+    popup.style.top = "0";
+    popup.style.left = "0";
+    popup.style.width = "100%";
+    popup.style.height = "100%";
+    popup.style.background = "rgba(0,0,0,0.9)";
+    popup.style.display = "flex";
+    popup.style.justifyContent = "center";
+    popup.style.alignItems = "center";
+    popup.style.zIndex = "9999";
+
+    popup.innerHTML = `
+        <img src="${src}" 
+        style="
+            max-width:95%;
+            max-height:95%;
+            border-radius:20px;
+        ">
+    `;
+
+    popup.onclick = function(){
+        popup.remove();
+    }
+
+    document.body.appendChild(popup);
+}
+</script>
+
+</body>
 
   <script src="script.js"></script>
 

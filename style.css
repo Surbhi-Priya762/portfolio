@@ -482,6 +482,10 @@ section{
     transform:translateY(-5px);
 }
 
+#skills-popup-section{
+    margin-top: -180px;
+}
+
 
 /* MODAL */
 
