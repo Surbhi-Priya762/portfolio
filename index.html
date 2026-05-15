@@ -80,20 +80,58 @@
   <!-- SKILLS -->
   <section id="skills" class="skills-section">
 
-    <h2>Skills & Tools</h2>
 
-    <div class="skills-grid">
+    <section id="skills-popup-section">
 
-      <div class="skill-card">Power BI</div>
-      <div class="skill-card">SQL</div>
-      <div class="skill-card">Python</div>
-      <div class="skill-card">Excel</div>
-      <div class="skill-card">Pandas</div>
-      <div class="skill-card">NumPy</div>
-      <div class="skill-card">Shopify</div>
-      <div class="skill-card">Ecommerce Analytics</div>
+    <h2 class="section-title">Skills & Tools</h2>
+
+    <div class="skills-popup-grid">
+
+        <div class="popup-skill-card" onclick="openSkill('powerbi')">
+            Power BI
+        </div>
+
+        <div class="popup-skill-card" onclick="openSkill('excel')">
+            Excel
+        </div>
+
+        <div class="popup-skill-card" onclick="openSkill('sql')">
+            SQL
+        </div>
+
+        <div class="popup-skill-card" onclick="openSkill('python')">
+            Python
+        </div>
+
+        <div class="popup-skill-card" onclick="openSkill('ai')">
+            AI Tools
+        </div>
+
+        <div class="popup-skill-card" onclick="openSkill('crm')">
+            CRM Tools
+        </div>
 
     </div>
+
+</section>
+
+
+<!-- SKILL MODAL -->
+
+<div id="skillModal" class="skill-modal">
+
+    <div class="skill-modal-content">
+
+        <span class="close-skill" onclick="closeSkill()">
+            &times;
+        </span>
+
+        <div id="skillContent"></div>
+
+    </div>
+
+</div>
+
 
   </section>
 
@@ -329,7 +367,11 @@ Email Me
   </footer>
 
 
-  <script src="script.js"></script>
+ 
+  <!-- SKILLS POPUP SECTION -->
+
+
+ <script src="script.js"></script>
 
 </body>
 </html>
