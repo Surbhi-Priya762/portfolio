@@ -392,3 +392,50 @@ section{
     padding:80px 20px;
 }
 
+.project-card{
+    margin-bottom:25px;
+}
+
+@media(max-width:768px){
+
+    .hero{
+        padding-top:40px;
+        padding-bottom:40px;
+    }
+
+    .about,
+    .skills,
+    .projects,
+    .experience,
+    .contact{
+        padding-top:40px;
+        padding-bottom:40px;
+    }
+
+    .project-grid{
+        gap:20px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    nav{
+        padding:20px;
+    }
+
+    nav ul{
+        gap:20px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .page-title{
+        font-size:42px;
+        line-height:1.2;
+    }
+
+}
+
