@@ -51,12 +51,12 @@ nav ul li a:hover{
 /* HERO SECTION */
 
 .hero{
-    min-height:90vh;
+    min-height:auto;
     display:flex;
     align-items:center;
     justify-content:center;
-    padding:60px 8%;
-    gap:50px;
+    padding:40px 8%;
+    gap:30px;
     flex-wrap:wrap;
 }
 
@@ -139,7 +139,7 @@ nav ul li a:hover{
 /* SECTION */
 
 section{
-    padding:80px 8%;
+    padding:50px 8%;    
 }
 
 .section-title{
