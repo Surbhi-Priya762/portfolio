@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce Operations Experience | Surbhi Priya</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section class="section-box">
+
+    <a href="index.html" class="back-btn">
+      ← Back to Portfolio
+    </a>
+
+    <h1>Ecommerce Operations Experience</h1>
+
+    <p>
+      Hands-on experience managing Shopify, Amazon, Myntra,
+      product listings, inventory management, order processing,
+      collections, analytics tracking, advertising campaigns,
+      and ecommerce operational workflows.
+    </p>
+
+  </section>
+
+
+  <section class="projects-section">
+
+    <div class="projects-grid">
+
+
+      <!-- AMAZON SELLER PANEL -->
+      <div class="project-card">
+
+        <img src="Amazonsellerpanel.png" onclick="openModal(this.src)">
+
+        <div class="project-content">
+
+          <h3>Amazon Seller Panel</h3>
+
+          <span>Amazon Marketplace Operations</span>
+
+          <p>
+            Managed Amazon inventory, pricing,
+            product listings, stock updates,
+            and order-related operations.
+          </p>
+
+          <p>
+            <strong>Tasks Handled:</strong>
+            SKU management, inventory tracking,
+            listing monitoring, pricing updates,
+            and fulfillment coordination.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- SHOPIFY COLLECTIONS -->
+      <div class="project-card">
+
+        <img src="collectionPage storeily.png" onclick="openModal(this.src)">
+
+        <div class="project-content">
+
+          <h3>Shopify Collections Management</h3>
+
+          <span>Shopify Store Operations</span>
+
+          <p>
+            Created and managed product collections
+            for seasonal launches, category pages,
+            and promotional campaigns.
+          </p>
+
+          <p>
+            <strong>Tasks Handled:</strong>
+            Collection setup, tag management,
+            category organization,
+            and homepage merchandising.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- MYNTRA LISTINGS -->
+      <div class="project-card">
+
+        <img src="Myntra listing.png" onclick="openModal(this.src)">
+
+        <div class="project-content">
+
+          <h3>Myntra Listings Management</h3>
+
+          <span>Myntra Marketplace Operations</span>
+
+          <p>
+            Managed Myntra catalog listings,
+            product approvals, image updates,
+            and listing optimization workflows.
+          </p>
+
+          <p>
+            <strong>Tasks Handled:</strong>
+            Product listing, bulk uploads,
+            catalog correction,
+            and listing performance monitoring.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- MYNTRA ADS -->
+      <div class="project-card">
+
+        <img src="MyntraAds.png" onclick="openModal(this.src)">
+
+        <div class="project-content">
+
+          <h3>Myntra Ads Campaigns</h3>
+
+          <span>Marketplace Advertising</span>
+
+          <p>
+            Managed advertising campaigns
+            to improve product visibility,
+            traffic, and marketplace sales performance.
+          </p>
+
+          <p>
+            <strong>Tasks Handled:</strong>
+            Budget tracking, campaign setup,
+            campaign monitoring,
+            and performance analysis.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- SHOPIFY ANALYTICS -->
+      <div class="project-card">
+
+        <img src="Storeily Analytics.png" onclick="openModal(this.src)">
+
+        <div class="project-content">
+
+          <h3>Shopify Analytics Dashboard</h3>
+
+          <span>Analytics & Reporting</span>
+
+          <p>
+            Monitored sales trends,
+            customer behavior,
+            revenue performance,
+            and operational KPIs using Shopify Analytics.
+          </p>
+
+          <p>
+            <strong>Insights Tracked:</strong>
+            Orders, conversion rate,
+            customer activity,
+            and revenue trends.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- SHOPIFY HOME -->
+      <div class="project-card">
+
+        <img src="storeily home.png" onclick="openModal(this.src)">
+
+        <div class="project-content">
+
+          <h3>Shopify Store Dashboard</h3>
+
+          <span>Store Operations</span>
+
+          <p>
+            Managed daily ecommerce operations,
+            order fulfillment,
+            customer coordination,
+            and store activity monitoring.
+          </p>
+
+          <p>
+            <strong>Tasks Handled:</strong>
+            Order processing,
+            operational tracking,
+            and workflow coordination.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- SHOPIFY PRODUCTS -->
+      <div class="project-card">
+
+        <img src="storeily products.png" onclick="openModal(this.src)">
+
+        <div class="project-content">
+
+          <h3>Shopify Product Management</h3>
+
+          <span>Product & Inventory Management</span>
+
+          <p>
+            Managed Shopify product catalog,
+            inventory levels,
+            pricing,
+            and product organization.
+          </p>
+
+          <p>
+            <strong>Tasks Handled:</strong>
+            Product uploads,
+            inventory tracking,
+            stock management,
+            and catalog maintenance.
+          </p>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+  <script>
+
+function openModal(src){
+
+    const popup = document.createElement("div");
+
+    popup.style.position = "fixed";
+    popup.style.top = "0";
+    popup.style.left = "0";
+    popup.style.width = "100%";
+    popup.style.height = "100%";
+    popup.style.background = "rgba(0,0,0,0.9)";
+    popup.style.display = "flex";
+    popup.style.justifyContent = "center";
+    popup.style.alignItems = "center";
+    popup.style.zIndex = "9999";
+
+    popup.innerHTML = `
+        <img src="${src}" 
+        style="
+            max-width:95%;
+            max-height:95%;
+            border-radius:20px;
+        ">
+    `;
+
+    popup.onclick = function(){
+        popup.remove();
+    }
+
+    document.body.appendChild(popup);
+}
+
+  </script>
+
+</body>
+</html>

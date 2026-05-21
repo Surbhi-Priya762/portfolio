@@ -399,6 +399,13 @@ section{
 .whatsapp-btn:hover{
     background:#1ea952;
 }
+.instagram-btn{
+    background:#E1306C;
+}
+
+.instagram-btn:hover{
+    background:#d11c5a;
+}
 
 .contact{
     text-align:center;

@@ -211,7 +211,7 @@ function openSkill(skill){
             <li>ChatGPT</li>
             <li>Gemini</li>
             <li>GitHub Copilot</li>
-            <li>Claude</li>
+            <li>Codex</li>
             <li>Midjourney</li>
             <li>AI for business analytics</li>
             <li>AI for content creation</li>
@@ -223,7 +223,7 @@ function openSkill(skill){
     else if(skill === "crm"){
 
         html = `
-        <h2>CRM & Collaboration</h2>
+        <h2>E-commerce & CRMs</h2>
 
         <ul>
             <li>Freshdesk</li>
@@ -235,6 +235,22 @@ function openSkill(skill){
             <li>Myntra seller panel</li>
             <li>Shopify order management</li>
             <li>Shopify Inbox management</li>
+            <li>Product listing & optimization</li>
+        </ul>
+        `;
+    }
+    else if(skill === "content writing"){
+        html = `
+        <h2>Content Writing</h2>
+        <ul>
+        <li>Instagram post & reel content writing</li>
+        <li>Shopify homepage & collection page content></li>
+        <li>Product description writing</li>
+        <li>Blog & article writing</li>
+        <li>Ecommerce & website copywriting</li>
+        <li>Ebook writing & content creation</li>
+        <li>SEO-friendly content writing</li>
+        <li>AI-assisted content creation</li>
         </ul>
         `;
     }
